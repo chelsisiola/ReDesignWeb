@@ -1,0 +1,165 @@
+/* Style untuk header */
+.header {
+    background-color: #ffffff; /* Warna latar belakang header */
+    padding: 20px; /* Jarak antara isi header dan tepi header */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Efek bayangan pada header */
+
+}
+
+
+/* Style untuk logo */
+.logo img {
+    width: 150px; /* Atur lebar logo */
+    height: auto; /* Biarkan tinggi menyesuaikan dengan aspek ratio */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1 {
+    text-align: center;
+    font-size: 2rem; /* Ubah ukuran font sesuai kebutuhan */
+    margin-bottom: 40px; /* Berikan jarak bawah agar tidak terlalu dekat dengan konten berikutnya */
+    font-style: bold;
+    font-family: 'Arial';
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+}
+
+/* Container styling */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+/* Image styling */
+.image-container {
+    flex: 1;
+    margin-bottom: 20px;
+    margin-right: 5%;
+    
+}
+
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+.image-container h3 {
+    margin-top: 10px; /* Memberikan jarak antara gambar dan teks */
+    font-size: 18px; /* Ukuran font untuk teks di bawah gambar */
+    color: #333; /* Warna teks */
+    margin-left: 290px;
+} 
+.image-container h3 .iconify {
+    font-size: 24px; /* Ukuran ikon */
+    vertical-align: middle; /* Sejajarkan ikon dengan teks */
+    margin-left: none; /* Jarak antara teks dan ikon */
+}
+
+.github-buttons {
+    margin-top: 10px; /* Jarak antara tombol GitHub dengan teks */
+    margin-left: 215px;
+}
+
+.github-buttons .github-button {
+    margin-right: none; /* Jarak antara tombol GitHub */
+    margin-left: none;
+}
+
+/* YouTube video styling */
+.video-container {
+    flex: 1;
+}
+.video-container iframe {
+    width: 110%;
+    height: 320px; /* Adjust height as needed */
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .image-container {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+}
+
+h1 {
+    font-size: 2.5rem; /* Ukuran font */
+    font-weight: bold; /* Ketebalan font */
+    color: #333; /* Warna teks */
+    margin-top: 60px; /* Jarak bawah */
+    font-family: Arial;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 200px;
+}
+
+.button-container .button {
+    margin: 0 10px; /* Jarak antara tombol */
+    border: 2px solid transparent; /* Garis pinggir dengan warna tertentu */
+    border-radius: 5px; /* Mengatur sudut kotak */
+    background-color: #4edb8b; /* Latar belakang transparan */
+    color: #ffff; /* Warna teks */
+    padding: 10px 20px; /* Padding */
+    text-decoration: none; /* Menghapus garis bawah default */
+    transition: background-color 0.3s ease; /* Transisi saat berubah warna */
+}
+
+.button-container .button:hover {
+    background-color: #ffffff; /* Warna latar belakang saat dihover */
+    color: #000; /* Warna teks saat dihover */
+}
+.footer {
+        background-color: #e9ecef; /* Warna latar belakang footer */
+        padding: 20px 0; /* Padding atas dan bawah */
+        display: flex;
+        justify-content: center; /* Mengatur konten footer berada di tengah */
+        align-items: center; /* Mengatur konten footer berada di tengah */
+}
+.mt-2 {
+    display: flex;
+    justify-content: center;
+    color: #000;
+}
+
+.footer p {
+    margin: 0; /* Menghapus margin default */
+}
+
+.footer a {
+    margin: 0 10px; /* Jarak antara ikon */
+    
+}
+
+
+
+
+
+
+
+
+
