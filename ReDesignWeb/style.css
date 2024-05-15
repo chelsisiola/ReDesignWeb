@@ -7,12 +7,6 @@
 }
 
 
-/* Style untuk logo */
-.logo img {
-    width: 150px; /* Atur lebar logo */
-    height: auto; /* Biarkan tinggi menyesuaikan dengan aspek ratio */
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -21,7 +15,7 @@
 h1 {
     text-align: center;
     font-size: 2rem; /* Ubah ukuran font sesuai kebutuhan */
-    margin-bottom: 40px; /* Berikan jarak bawah agar tidak terlalu dekat dengan konten berikutnya */
+    margin-bottom: 90px; /* Berikan jarak bawah agar tidak terlalu dekat dengan konten berikutnya */
     font-style: bold;
     font-family: 'Arial';
 }
@@ -51,8 +45,6 @@ body {
     margin-right: 5%;
     
 }
-
-
 .image-container img {
     max-width: 100%;
     height: auto;
@@ -107,32 +99,36 @@ h1 {
     font-size: 2.5rem; /* Ukuran font */
     font-weight: bold; /* Ketebalan font */
     color: #333; /* Warna teks */
-    margin-top: 60px; /* Jarak bawah */
+    margin-top: 90px; /* Jarak bawah */
+    margin-bottom: 20px;
     font-family: Arial;
 }
 
 .button-container {
     display: flex;
-    justify-content: center;
-    margin-top: 20px;
-    margin-bottom: 200px;
+    flex-direction: column; /* Change to column layout */
+    align-items: center; /* Center align items */
+    margin-top: 10px;
+    margin-bottom: 100px;
 }
 
 .button-container .button {
-    margin: 0 10px; /* Jarak antara tombol */
-    border: 2px solid transparent; /* Garis pinggir dengan warna tertentu */
-    border-radius: 5px; /* Mengatur sudut kotak */
-    background-color: #4edb8b; /* Latar belakang transparan */
-    color: #ffff; /* Warna teks */
+    margin: 10px 0; /* Adjust margin for vertical spacing */
+    border: 2px solid transparent; /* Border with a specific color */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #4edb8b; /* Background color */
+    color: #ffffff; /* Text color */
     padding: 10px 20px; /* Padding */
-    text-decoration: none; /* Menghapus garis bawah default */
-    transition: background-color 0.3s ease; /* Transisi saat berubah warna */
+    text-decoration: none; /* Remove underline */
+    transition: background-color 0.3s ease; /* Transition for background color change */
 }
 
 .button-container .button:hover {
-    background-color: #ffffff; /* Warna latar belakang saat dihover */
-    color: #000; /* Warna teks saat dihover */
+    background-color: #ffffff; /* Background color on hover */
+    color: #000000; /* Text color on hover */
 }
+
+
 .footer {
         background-color: #e9ecef; /* Warna latar belakang footer */
         padding: 20px 0; /* Padding atas dan bawah */
@@ -154,7 +150,6 @@ h1 {
     margin: 0 10px; /* Jarak antara ikon */
     
 }
-
 
 
 
